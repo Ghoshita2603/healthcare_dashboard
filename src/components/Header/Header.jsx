@@ -32,7 +32,7 @@ const Header = () => {
             alt="User Avatar"
             className="avatar"
           />
-          <span className="username">Dr. Emily</span>
+          <span className="username">Dr. Ghoshita</span>
         </div>
       </div>
     </header>
