@@ -1,0 +1,75 @@
+/* src/components/Header.css */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 24px;
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #2c7f75;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: 600;
+  color: #000;
+  letter-spacing: 3px;
+}
+
+
+.logo span {
+  color: #2c7f75;
+}
+
+.search-bar input {
+  padding: 8px 16px;
+  border: 1px solid #2c7f75;
+  border-radius: 20px;
+  background-color: #fff;
+  font-size: 14px;
+  width: 200px;
+  pointer-events: none;
+}
+
+.search-bar input::placeholder {
+  color: #2c7f75;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.add-btn {
+  background-color: transparent;
+  border: none;
+  color: #2c7f75;
+  padding: 6px 10px;
+  border-radius: 50%;
+  cursor: default;
+}
+
+.notification {
+  color: #2c7f75;
+}
+
+.user-profile {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.avatar {
+  border: 2px solid #2c7f75;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.username {
+  font-size: 14px;
+  color: #2c7f75;
+  font-weight: bold;
+}

@@ -1,0 +1,19 @@
+ body {
+     margin: 0;
+     font-family: 'Segoe UI', sans-serif;
+ }
+
+ .app-container {
+     display: flex;
+     padding: 0px;
+     margin: 0px;
+     width: 100%;
+ }
+
+
+ .main-content {
+     flex: 1;
+     display: flex;
+     flex-direction: column;
+     overflow-y: auto;
+ }

@@ -1,0 +1,33 @@
+.upcoming-schedule {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 15px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.schedule-title {
+  font-size: 22px;
+  margin-bottom: 20px;
+  color: #2c7f75;
+}
+
+.day-section {
+  margin-top: 0px;
+  margin-bottom: 25px;
+}
+
+.day-section .box {
+  width: 100%;
+  display: flex;
+  column-gap: 20px;
+  justify-items: center;
+  align-items: center;
+  padding-top: 1rem;
+}
+
+
+.day-section h4 {
+  font-size: 18px;
+  margin-bottom: 0px;
+  color: #000;
+}

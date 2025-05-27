@@ -1,0 +1,12 @@
+.dashboard-overview {
+  background-color: #fff;
+  padding: 30px 20px;
+  border-radius: 8px;
+}
+
+.dashboard-overview .section {
+  margin: 0px;
+  display: flex;
+  justify-content: space-evenly;
+
+}

@@ -1,0 +1,77 @@
+/* src/components/DashboardMainContent/HealthStatusCards.css */
+
+.health-status-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 280px;
+}
+
+.health-card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 18px 20px;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  cursor: default;
+}
+
+.health-card .box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.health-card .box .info {
+  text-align: left;
+  padding-left: 30px;
+  width: 50%;
+}
+
+.health-card .img {
+  width: 90px;
+  height: 90px;
+}
+
+.health-card .img img {
+  width: 100%;
+  height: 100%;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0;
+  color: #2c7f75;
+}
+
+.status-indicator {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+/* Status styles */
+.status-indicator.healthy {
+  background-color: #3db46d;
+  /* Green */
+}
+
+.status-indicator.issue {
+  background-color: #d9534f;
+  /* Red */
+}
+
+.card-date {
+  margin: 8px 0 4px 0;
+  font-size: 14px;
+  color: #666;
+}
+
+.card-description {
+  font-size: 14px;
+  color: #999;
+  margin: 0;
+}

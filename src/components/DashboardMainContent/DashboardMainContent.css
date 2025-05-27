@@ -1,0 +1,32 @@
+.dashboard-main {
+  height: auto;
+  padding: 0 30px;
+  overflow-y: auto;
+  background-color: #f8f8f8;
+}
+
+.top-section {
+  width: 100%;
+  display: grid;
+  margin-top: 30px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+  margin-bottom: 32px;
+  align-items: start;
+}
+
+
+.bottom-section {
+  margin-top: 24px;
+}
+
+.top-section .card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+  padding: 1rem;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+
+}
